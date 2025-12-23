@@ -24,8 +24,8 @@
 from struct import unpack, pack
 import binascii
 
-from Crypto.Hash import MD5
-from Crypto.Cipher import ARC4, DES, AES
+from Cryptodome.Hash import MD5
+from Cryptodome.Cipher import ARC4, DES, AES
 
 from framework.win32.rawreg import get_root, open_key, values, subkeys
 from framework.addrspace import HiveFileAddressSpace
