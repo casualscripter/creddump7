@@ -21,8 +21,8 @@
 @contact:      bdolangavitt@wesleyan.edu
 """
 
-from Crypto.Hash import MD5, SHA256
-from Crypto.Cipher import ARC4, DES, AES
+from Cryptodome.Hash import MD5, SHA256
+from Cryptodome.Cipher import ARC4, DES, AES
 
 from framework.win32.rawreg import get_root, open_key, subkeys, unpack
 from framework.addrspace import HiveFileAddressSpace
